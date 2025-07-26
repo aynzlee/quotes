@@ -1,0 +1,283 @@
+/*phone*/
+body {
+    background-color: #ffe8d9;
+    font-family: sans-serif;
+}
+
+.quote-container {
+    position: absolute;
+    width: 50vw;
+    height: 15vh;
+    top: 35vh;
+    left: 25vw;
+}
+
+button {
+    position: absolute;
+    width: 50vw;
+    height: 5vh;
+    top: 70vh;
+    left: 25vw;
+    border: none;
+    background-color: rgb(248, 178, 141);
+    font-weight: bolder;
+    color: white;
+    z-index: 1;
+}
+
+button:hover {
+    background-color:#99704E;
+    
+}
+
+.quote {
+    font-size:large;
+    font-weight: bolder;
+    align-items: center;
+    margin-top: 0vh;
+    padding: 0;
+    color: #99704E;
+    z-index: 1;
+
+}
+
+.window {
+    position: absolute;
+    width: 95%;
+    height: 55%;
+    top: 20vh;
+    left: 2vw;
+    z-index: -1;
+}
+
+
+/*phone large*/
+
+@media (min-width: 414px) {
+    body {
+        background-color: #ffe8d9;
+        font-family: sans-serif;
+    }
+
+    .quote-container {
+        position: absolute;
+        width: 50vw;
+        height: 25vh;
+        top: 30vh;
+        left: 25vw;
+    }
+
+    button {
+        position: absolute;
+        width: 50vw;
+        height: 5vh;
+        top: 70vh;
+        left: 25vw;
+        border: none;
+        background-color: rgb(248, 178, 141);
+        font-weight: bolder;
+        color: white;
+        z-index: 1;
+    }
+
+    button:hover {
+        background-color:#99704E;
+        
+    }
+
+    .quote {
+        font-size:large;
+        font-weight: bolder;
+        align-items: center;
+        margin-top: 10vh;
+        padding: 0;
+        color: #99704E;
+        z-index: 1;
+
+    }
+
+    .window {
+        position: absolute;
+        width: 95%;
+        height: 53%;
+        top: 23vh;
+        left: 2vw;
+        z-index: -1;
+    }
+
+}
+
+/*tablet*/
+@media (min-width: 1024px) {
+    body {
+        background-color: #ffe8d9;
+        font-family: sans-serif;
+    }
+
+    .quote-container {
+        position: absolute;
+        width: 45vw;
+        height: 28vh;
+        top: 40vh;
+        left: 25.3vw;
+    }
+
+    button {
+        position: absolute;
+        width: 50vw;
+        height: 5vh;
+        top: 85vh;
+        left: 23vw;
+        border: none;
+        background-color: rgb(248, 178, 141);
+        font-weight: bolder;
+        color: white;
+        z-index: 1;
+    }
+
+    button:hover {
+        background-color:#99704E;
+        
+    }
+
+    .quote {
+        font-size:large;
+        font-weight: bolder;
+        align-items: center;
+        max-width: 1098px;
+        left: 50vw;
+        margin-top: 10vh;
+        padding: 0;
+        color: #99704E;
+        z-index: 1;
+
+    }
+
+    .window {
+        position: absolute;
+        width: 80%;
+        height: 80%;
+        top: 15vh;
+        left: 7vw;
+        z-index: -1;
+    }
+
+}
+
+/*my desktop*/
+
+@media (min-width: 1272px){
+    body {
+        background-color: #ffe8d9;
+        font-family: sans-serif;
+        font-size: x-large;
+    }
+
+    .quote-container {
+        position: absolute;
+        width: 22vw;
+        height: 28vh;
+        top: 35vh;
+        left: 40vw;
+    }
+
+    button {
+        position: absolute;
+        max-width: 520px;
+        width: 50vw;
+        height: 5vh;
+        top: 85vh;
+        left: 30vw;
+        border: none;
+        background-color: rgb(248, 178, 141);
+        font-weight: bolder;
+        color: white;
+        z-index: 1;
+    }
+
+    button:hover {
+        background-color:#99704E;
+        
+    }
+
+    .quote {
+        font-size:large;
+        font-weight: bolder;
+        align-items: center;
+        max-width: 1098px;
+        left: 50vw;
+        margin-top: 5vh;
+        color: #99704E;
+        z-index: 1;
+
+    }
+
+    .window {
+        position: absolute;
+        width: 50%;
+        height: 90%;
+        top: 7vh;
+        left: 25vw;
+        z-index: -1;
+    }
+
+
+}
+
+@media (min-width: 1440px) {
+    body {
+        background-color: #ffe8d9;
+        font-family: sans-serif;
+        font-size: x-large;
+    }
+
+    .quote-container {
+        position: absolute;
+        width: 22vw;
+        height: 28vh;
+        top: 35vh;
+        left: 40vw;
+    }
+
+    button {
+        position: absolute;
+        max-width: 650px;
+        width: 50vw;
+        height: 5vh;
+        top: 85vh;
+        left: 30vw;
+        border: none;
+        background-color: rgb(248, 178, 141);
+        font-weight: bolder;
+        color: white;
+        z-index: 1;
+    }
+
+    button:hover {
+        background-color:#99704E;
+        
+    }
+
+    .quote {
+        font-size:large;
+        font-weight: bolder;
+        align-items: center;
+        max-width: 1098px;
+        left: 50vw;
+        margin-top: 10vh;
+        color: #99704E;
+        z-index: 1;
+
+    }
+
+    .window {
+        position: absolute;
+        width: 55%;
+        height: 75%;
+        top: 15vh;
+        left: 23vw;
+        z-index: -1;
+    }
+
+
+}
